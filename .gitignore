@@ -1,0 +1,4 @@
+.DS_Store
+.idea
+node_modules
+server/config/app.development.json

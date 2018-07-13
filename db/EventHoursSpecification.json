@@ -1,0 +1,25 @@
+[{
+    "name":"GL-1st hour",
+    "validFrom":"2018-09-01T00:00:00+03:00",
+    "validThrough":"2018-09-30T00:00:00+03:00",
+    "duration":"PT3M",
+    "minuteOfHour":"10-52/3",
+    "hourOfDay":"8-9",
+    "dayOfWeek": "2"
+},{
+    "name":"GL-2nd hour",
+    "validFrom":"2018-09-01T00:00:00+03:00",
+    "validThrough":"2018-09-30T00:00:00+03:00",
+    "duration":"PT3M",
+    "minuteOfHour":"0-42/3",
+    "hourOfDay":"9-10",
+    "dayOfWeek": "2"
+},{
+    "name":"GL1-2nd hour",
+    "validFrom":"2018-09-01T00:00:00+03:00",
+    "validThrough":"2018-09-30T00:00:00+03:00",
+    "duration":"PT45M",
+    "minuteOfHour":"10",
+    "hourOfDay":"8",
+    "dayOfWeek": "2"
+}]
