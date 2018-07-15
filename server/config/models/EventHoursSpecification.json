@@ -37,6 +37,13 @@
             "type": "Duration"
         },
         {
+            "@id": "http://schema.org/splitDuration",
+            "name": "splitDuration",
+            "title": "splitDuration",
+            "description": "The duration of a splitted event (e.g. an appointment) which is going to be created based on this specification.",
+            "type": "Duration"
+        },
+        {
             "@id": "http://schema.org/closes",
             "name": "closes",
             "title": "closes",
@@ -78,13 +85,13 @@
     ],
     "privileges": [
         {
-            "mask": 15,
-            "type": "global"
+            "mask": 1,
+            "type": "global",
+            "account": "*"
         },
         {
             "mask": 15,
-            "type": "global",
-            "account": "Guests"
+            "type": "global"
         },
         {
             "mask": 15,

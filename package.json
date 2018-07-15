@@ -33,13 +33,41 @@
   "dependencies": {
     "@themost/common": "^2.1.4",
     "@themost/data": "^2.1.5",
-    "@themost/sqlite": "^2.1.2",
     "@themost/mysql": "^2.1.2",
+    "@themost/sqlite": "^2.1.2",
     "@themost/web": "^2.1.8",
     "bootstrap": "^4.1.0",
     "cron-parser": "^2.5.0",
     "cronstrue": "^1.31.0",
     "jquery": "^3.3.1",
     "moment": "^2.22.2"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "env": {
+      "node": true,
+      "es6": true,
+      "jquery": true
+    },
+    "globals": {
+      "describe": false,
+      "it": false,
+      "before": false,
+      "after": false
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": "warn",
+      "no-invalid-this": "warn",
+      "no-undef": "error",
+      "no-unused-vars": "warn",
+      "no-var": [
+        "error"
+      ],
+      "strict": [
+        2,
+        "never"
+      ]
+    }
   }
 }

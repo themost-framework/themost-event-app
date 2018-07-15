@@ -94,11 +94,6 @@
   ],
   "privileges": [
     {
-      "mask": 1,
-      "type": "self",
-      "filter": "id eq me()"
-    },
-    {
       "mask": 15,
       "type": "global"
     },
@@ -106,6 +101,11 @@
       "mask": 15,
       "type": "global",
       "account": "Administrators"
+    },
+    {
+      "mask": 1,
+      "type": "self",
+      "filter": "id eq me()"
     }
   ],
   "constraints": [

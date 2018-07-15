@@ -30,12 +30,12 @@
         { "name":"MySQL Data Adapter", "invariantName": "mysql", "type":"@themost/mysql" }
     ],
     "adapters": [
-        { "name":"development", "invariantName":"sqlite", "default":false,
+        { "name":"development", "invariantName":"sqlite", "default":true,
             "options": {
                 "database":"db/local.db"
             }
         },
-        { "name":"development_mysql", "invariantName":"mysql", "default":true,
+        { "name":"development_mysql", "invariantName":"mysql", "default":false,
             "options": {
                 "host":"localhost",
                 "port":3306,

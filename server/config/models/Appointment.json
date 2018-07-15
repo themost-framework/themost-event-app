@@ -7,7 +7,8 @@
     "sealed": false,
     "inherits": "Event",
     "version": "1.0",
-    "fields": [],
+    "fields": [
+        ],
     "privileges": [
         {
             "mask": 1,
