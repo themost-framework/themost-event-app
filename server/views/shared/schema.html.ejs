@@ -2,7 +2,6 @@
 <div class="container">
     <div class="col-lg-12 pt-2">
         <h1><%=model.name%></h1>
-        <h4><%=model.title%></h4>
         <table class="table">
             <thead>
             <th>Name</th>
@@ -21,7 +20,7 @@
                     <td><%=x.title%></td>
                     <td><%=x.description|| ''%></td>
                     <% if  (html.context.model(x.type)) { %>
-                    <td><a href="/model/<%=x.type%>/schema"><%=x.type%></a></td>
+                    <td><a href="/model/<%=x.type%>/schema.html"><%=x.type%></a></td>
                     <% } else { %>
                     <td><%=x.type%></td>
                     <% } %>
