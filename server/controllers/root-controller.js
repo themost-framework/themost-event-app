@@ -15,19 +15,6 @@ export default class RootController extends HttpBaseController {
     getIndex() {
         return Promise.resolve(this.view());
     }
-
-    /**
-     * GET /hello.html
-     * @returns {Promise<{message: string}>}
-     */
-    @httpGet()
-    @httpAction('hello')
-    hello() {
-        return Promise.resolve({
-            message: "Hello World!",
-            values: [1, 2, 3, 4, 5]
-        });
-    }
     
     
 }

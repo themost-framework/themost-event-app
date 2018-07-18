@@ -1,7 +1,20 @@
 <%# { "layout":"./master.html.ejs", "title":"Model Schema" } %>
-<div class="container">
-    <div class="col-lg-12 pt-2">
-        <h1><%=model.name%></h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 pt-2" style="font-size: 90%;">
+        <h2 class="pt-2 pb-2">&nbsp;</h4>
+        <ul class="list-group">
+            <% model.models.forEach(function(x) {
+            %>
+                <li class="list-group-item">
+                    <a href="/model/<%=x.model%>/schema.html"><%=x.model%></a>
+                    </li>
+            <%
+            }) %>
+        </ul>
+        </div>
+        <div class="col-lg-8 pt-2" style="font-size: 90%;">
+        <h2 class="pt-2 pb-2"><%=model.name%></h2>
         <table class="table">
             <thead>
             <th>Name</th>
@@ -31,6 +44,10 @@
             </tbody>
         </table>
     </div>
+    </div>
+    
+    
+    
 </div>
 
 
