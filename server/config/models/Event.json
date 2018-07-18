@@ -147,6 +147,9 @@
     "eventListeners": [
         {
             "type": "./listeners/generate-sub-events-listener"
+        },
+        {
+            "type": "./listeners/split-event-listener"
         }
     ],
     "privileges": [
