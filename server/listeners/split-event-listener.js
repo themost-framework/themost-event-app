@@ -1,5 +1,4 @@
 import _ from 'lodash';
-import {parseExpression} from 'cron-parser';
 import moment from 'moment';
 /**
  * @param {DataEventArgs} event
@@ -28,21 +27,12 @@ export function afterSave(event, callback) {
                     endDate: event.target.endDate,
                     iterator: true
                 };
-                //create cronjob expression
-                let duration = moment.duration(splitDuration);
-                let cronjob = `*/${duration.as('minutes')} * * * *`;
-                let interval = parseExpression(cronjob, options);
                 let intervals = [];
-                while (interval) {
-                    try {
-                        let obj = interval.next();
-                        let nextDate = obj.value.toDate();
-                        if (nextDate<event.target.endDate) {
-                            intervals.push(nextDate);
-                        }
-                    } catch (err) {
-                        break;
-                    }
+                let nextDate = options.currentDate;
+                let duration = moment.duration(splitDuration);
+                while(nextDate<event.target.endDate) {
+                    intervals.push(nextDate);
+                    nextDate = moment(nextDate).add(duration).toDate();
                 }
                 //clone event
                 let events = intervals.map((x)=> {

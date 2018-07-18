@@ -1,0 +1,136 @@
+[{
+        "gender": "F",
+        "givenName": "Brianna",
+        "familyName": "Dixon",
+        "birthDate": "1991-10-07T12:07:00.000Z",
+        "jobTitle": "Teacher",
+        "address": {
+            "contactType": "primary",
+            "streetAddress": "70 10th Street",
+            "addressLocality": "Blackpool, Lancashire",
+            "postalCode": "G21 2JE",
+            "addressCountry": "UK",
+            "telephone": "(0517 83) 4937"
+        },
+        "description": "Brianna Dixon",
+        "email": "brianna.dixon@example.com"
+    },
+    {
+        "gender": "M",
+        "givenName": "Maxwell",
+        "familyName": "Ward",
+        "birthDate": "1981-04-17T07:38:00.000Z",
+        "jobTitle": "Teacher",
+        "address": {
+            "contactType": "primary",
+            "streetAddress": "58 Prospect Street",
+            "addressLocality": "Stevenage, Hertfordshire",
+            "postalCode": "W59 9HX",
+            "addressCountry": "UK",
+            "telephone": "(0285 82) 3457"
+        },
+        "description": "Maxwell Ward",
+        "email": "maxwell.ward@example.com"
+    },
+    {
+        "gender": "M",
+        "givenName": "Alexander",
+        "familyName": "Johnson",
+        "birthDate": "1992-10-29T08:32:00.000Z",
+        "jobTitle": "Information Technology Specialist",
+        "address": {
+            "contactType": "primary",
+            "streetAddress": "20 Route 4",
+            "addressLocality": "Salford, Greater Manchester",
+            "postalCode": "M41 8ZE",
+            "addressCountry": "UK",
+            "telephone": "(0516 73) 3611"
+        },
+        "description": "Alexander Johnson",
+        "email": "alexander.johnson@example.com"
+    },
+    {
+        "gender": "F",
+        "givenName": "Sierra",
+        "familyName": "Watts",
+        "birthDate": "1983-09-07T21:04:00.000Z",
+        "jobTitle": "Air Traffic Assistant",
+        "address": {
+            "contactType": "primary",
+            "streetAddress": "49 Elm Avenue",
+            "addressLocality": "Walton-on-Thames, Thames Valley",
+            "postalCode": "B90 5HR",
+            "addressCountry": "UK",
+            "telephone": "(0181 77) 2532"
+        },
+        "description": "Sierra Watts",
+        "email": "sierra.watts@example.com"
+    },
+    {
+        "gender": "M",
+        "givenName": "Austin",
+        "familyName": "Bennett",
+        "birthDate": "1993-08-06T14:14:00.000Z",
+        "jobTitle": "Safety Engineering",
+        "address": {
+            "contactType": "primary",
+            "streetAddress": "5 9th Street",
+            "addressLocality": "Birkenhead, Merseyside",
+            "postalCode": "S37 3HD",
+            "addressCountry": "UK",
+            "telephone": "(0262 73) 7910"
+        },
+        "description": "Austin Bennett",
+        "email": "austin.bennett@example.com"
+    },
+    {
+        "gender": "M",
+        "givenName": "Luke",
+        "familyName": "O'connor",
+        "birthDate": "1987-11-06T21:34:00.000Z",
+        "jobTitle": "Teacher",
+        "address": {
+            "contactType": "primary",
+            "streetAddress": "35 Sycamore Drive",
+            "addressLocality": "Walsall, West Midlands",
+            "postalCode": "M67 1ZE",
+            "addressCountry": "UK",
+            "telephone": "(0580 83) 8024"
+        },
+        "description": "Luke O'connor",
+        "email": "luke.oconnor@example.com"
+    },
+    {
+        "gender": "M",
+        "givenName": "Connor",
+        "familyName": "Saunders",
+        "birthDate": "1993-10-24T21:38:00.000Z",
+        "jobTitle": "Teacher",
+        "address": {
+            "contactType": "primary",
+            "streetAddress": "31 Walnut Street",
+            "addressLocality": "Bognor Regis, Sussex",
+            "postalCode": "S66 3SM",
+            "addressCountry": "UK",
+            "telephone": "(0410 68) 5274"
+        },
+        "description": "Connor Saunders",
+        "email": "connor.saunders@example.com"
+    },
+    {
+        "gender": "F",
+        "givenName": "Kaitlyn",
+        "familyName": "Stanley",
+        "birthDate": "1991-12-05T22:32:00.000Z",
+        "jobTitle": "Teacher",
+        "address": {
+            "contactType": "primary",
+            "streetAddress": "12 Columbia Street",
+            "addressLocality": "East Kilbride, Scotland",
+            "postalCode": "W81 2HD",
+            "addressCountry": "UK",
+            "telephone": "(0294 70) 7163"
+        },
+        "description": "Kaitlyn Stanley",
+        "email": "kaitlyn.stanley@example.com"
+    }]

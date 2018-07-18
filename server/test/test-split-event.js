@@ -55,7 +55,7 @@ describe('test split event', ()=> {
                             "alternateName": "EventOpened"
                         }
                     };
-            return context.model('Appointment').save(appointment).then(()=> {
+            return context.model('Appointment').silent().save(appointment).then(()=> {
                 console.log('INFO', 'Appointment',appointment);
                 return done();
             });
