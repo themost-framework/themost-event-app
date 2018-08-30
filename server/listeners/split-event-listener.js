@@ -47,6 +47,7 @@ export function afterSave(event, callback) {
                         maximumAttendeeCapacity: event.target.maximumAttendeeCapacity,
                         organizer: event.target.organizer,
                         superEvent: event.target.id,
+                        eventStatus: event.target.eventStatus,
                         location: event.target.location
                     }
                 });

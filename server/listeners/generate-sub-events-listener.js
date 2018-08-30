@@ -42,9 +42,6 @@ export function afterSave(event, callback) {
                         break;
                     }
                 }
-                console.log('INFO', JSON.stringify(intervals.map((x)=> {
-                    return x.toDate();
-                }), null, 4));
                 let events = intervals.map((x)=> {
                     return {
                         startDate: x.toDate(),
@@ -57,6 +54,7 @@ export function afterSave(event, callback) {
                         maximumAttendeeCapacity: event.target.maximumAttendeeCapacity,
                         organizer: event.target.organizer,
                         superEvent: event.target.id,
+                        eventStatus: event.target.eventStatus,
                         location: event.target.location
                     }
                 });

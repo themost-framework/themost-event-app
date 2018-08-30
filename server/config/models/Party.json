@@ -38,7 +38,8 @@
             "name": "email",
             "title": "email",
             "description": "Email address.",
-            "type": "Text"
+            "type": "Text",
+            "nullable": false
         },
         {
             "@id": "http://schema.org/telephone",
@@ -70,6 +71,14 @@
             "type": "Text"
         }
     ],
+    "constraints": [
+            {
+            "type": "unique",
+            "fields": [
+                    "email"
+                ]
+            }
+        ],
     "privileges": [
         {
             "mask": 1,

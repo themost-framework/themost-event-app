@@ -43,7 +43,7 @@ gulp.task('serve', [], function() {
     //if process is running in debug mode (--debug or --debug-brk arguments)
     if (debug) {
         //find debug port
-        const debugPort = parseInt(/^--inspect(-brk)?=(\d+)$/.exec(debug)[2]);
+        const debugPort = parseInt(/^--inspect(-brk)?=(\d+)$/.exec(debug)[2], 10);
         //get execution arguments except --debug or --debug-brk
         execArgv = process.execArgv.filter(function(x) { return !/^--inspect(-brk)?=\d+$/.test(x); }).splice(0);
         //push debug argument (while increasing debug port by 1)

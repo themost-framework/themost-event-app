@@ -8,7 +8,21 @@
     "inherits": "Event",
     "version": "1.0",
     "fields": [
+            {
+                "@id": "http://schema.org/eventStatus",
+                "name": "eventStatus",
+                "title": "eventStatus",
+                "description": "An eventStatus of an event represents its status; particularly useful when an event is cancelled or rescheduled.",
+                "type": "EventStatusType",
+                "expandable": true,
+                "value": "javascript:return { alternateName: 'EventOpened' };"
+            }
         ],
+        "eventListeners": [
+        {
+            "type": "./listeners/update-super-event-status-listener"
+        }
+    ],
     "privileges": [
         {
             "mask": 1,

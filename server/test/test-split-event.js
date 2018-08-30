@@ -22,7 +22,7 @@ describe('test split event', ()=> {
             return done();
         });
     });
-   
+   /*
    it('should add person availability', (done)=> {
        context.model('Person').where('email').equal('christian.lambert@example.com').silent().getItem().then((teacher)=> {
             console.log('INFO', 'Person',teacher);
@@ -40,9 +40,9 @@ describe('test split event', ()=> {
            return done(err);
        });
    });
-   
+   */
    it('should add super appointment', (done)=> {
-       context.model('PersonAvailability').where('person/email').equal('christian.lambert@example.com')
+       context.model('PersonAvailability').where('person/email').equal('navramidis@iekdelta.gr')
        .and('eventHoursSpecification/name').equal('GL1-1st hour')
        .expand('eventHoursSpecification')
        .silent().getItem().then((availability)=> {

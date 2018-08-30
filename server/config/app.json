@@ -27,13 +27,21 @@
     },
     "adapterTypes": [
         { "name":"SQLite Data Adapter", "invariantName": "sqlite", "type":"@themost/sqlite" },
-        { "name":"MySQL Data Adapter", "invariantName": "mysql", "type":"@themost/mysql" }
+        { "name":"MySQL Data Adapter", "invariantName": "mysql", "type":"@themost/mysql" },
+        { "name":"H2 Data Adapter", "invariantName": "h2", "type":"@themost/h2" }
     ],
     "adapters": [
-        { "name":"development", "invariantName":"sqlite", "default":true,
+        { "name":"development", "invariantName":"sqlite", "default":false,
             "options": {
                 "database":"db/local.db"
             }
+        },
+        { "name":"development_h2", "invariantName":"h2", "default":true,
+            "options": {
+               "path":"./db/event",
+               "user":"SA",
+               "password":""
+           }
         },
         { "name":"development_mysql", "invariantName":"mysql", "default":false,
             "options": {

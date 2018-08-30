@@ -36,6 +36,19 @@
             "value": "javascript:return false;"
         }
     ],
+    "eventListeners": [
+        {
+            "type": "./listeners/auto-insert-person-listener"
+        }
+    ],
+     "constraints": [
+            {
+            "type": "unique",
+            "fields": [
+                    "person", "eventHoursSpecification"
+                ]
+            }
+        ],
     "privileges": [
         {
             "mask": 1,
