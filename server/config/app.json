@@ -20,36 +20,18 @@
             "timeout": 480,
             "slidingExpiration": false
         },
-        "localization": {
-            "cultures": [ "en-us" ],
-            "default": "en-us"
+        "i18n": {
+            "locales": [ "en" ],
+            "defaultLocale": "en"
         }
     },
     "adapterTypes": [
-        { "name":"SQLite Data Adapter", "invariantName": "sqlite", "type":"@themost/sqlite" },
-        { "name":"MySQL Data Adapter", "invariantName": "mysql", "type":"@themost/mysql" },
-        { "name":"H2 Data Adapter", "invariantName": "h2", "type":"@themost/h2" }
+        { "name":"SQLite Data Adapter", "invariantName": "sqlite", "type":"@themost/sqlite" }
     ],
     "adapters": [
-        { "name":"development", "invariantName":"sqlite", "default":false,
+        { "name":"development", "invariantName":"sqlite", "default":true,
             "options": {
                 "database":"db/local.db"
-            }
-        },
-        { "name":"development_h2", "invariantName":"h2", "default":true,
-            "options": {
-               "path":"./db/event",
-               "user":"SA",
-               "password":""
-           }
-        },
-        { "name":"development_mysql", "invariantName":"mysql", "default":false,
-            "options": {
-                "host":"localhost",
-                "port":3306,
-                "user":"root",
-                "password": "secret",
-                "database":"event"
             }
         }
     ],

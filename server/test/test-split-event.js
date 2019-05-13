@@ -42,21 +42,21 @@ describe('test split event', ()=> {
    });
    */
    it('should add super appointment', (done)=> {
-       context.model('PersonAvailability').where('person/email').equal('navramidis@iekdelta.gr')
-       .and('eventHoursSpecification/name').equal('GL1-1st hour')
+       context.model('PersonAvailability').where('person/jobTitle').equal('Lecturer')
        .expand('eventHoursSpecification')
-       .silent().getItem().then((availability)=> {
-            console.log('INFO', 'PersonAvailability',availability);
-            let appointment = {
-                        performer: availability.person,
-                        eventHoursSpecification: availability.eventHoursSpecification,
+       .silent().getItems().then((res)=> {
+            let appointments = res.map(x=> {
+                return {
+                        performer: x.person,
+                        eventHoursSpecification: x.eventHoursSpecification,
                         maximumAttendeeCapacity:1,
                         eventStatus: {
                             "alternateName": "EventOpened"
                         }
                     };
-            return context.model('Appointment').silent().save(appointment).then(()=> {
-                console.log('INFO', 'Appointment',appointment);
+            });
+            return context.model('Appointment').silent().save(appointments).then(()=> {
+                console.log('INFO', 'Appointments',appointments);
                 return done();
             });
        }).catch((err)=> {

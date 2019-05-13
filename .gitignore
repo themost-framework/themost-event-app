@@ -2,3 +2,4 @@
 .idea
 node_modules
 server/config/app.development.json
+package-lock.json
