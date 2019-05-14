@@ -61,7 +61,7 @@ Query events:
 and many others.
 
 Event Management Api Server prototype uses [cron-job specification](https://cron-job.org/en/) for creating recursive events.
-An EventHoursSpecification object it's being converted to a cron-job like object which gives a set of auto generated events.
+An EventHoursSpecification object is being converted to a cron-job like object which gives a set of auto generated events.
 
 The following event hours specification object:
 
