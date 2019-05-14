@@ -15,8 +15,6 @@
     "debug": "nodemon --inspect-brk bin/www.js"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "@themost/cli": "^2.1.9",
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.5",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
@@ -26,8 +24,10 @@
     "@babel/plugin-transform-async-to-generator": "^7.1.0",
     "@babel/preset-env": "^7.1.6",
     "@babel/register": "^7.0.0",
-    "rimraf": "^2.6.3",
-    "nodemon": "^1.19.0"
+    "@themost/cli": "^2.4.3",
+    "babel-eslint": "^10.0.1",
+    "nodemon": "^1.19.0",
+    "rimraf": "^2.6.3"
   },
   "dependencies": {
     "@themost/client": "^2.1.3",

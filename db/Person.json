@@ -1,5 +1,32 @@
 [
     {
+        "gender": "M",
+        "givenName": "Peter",
+        "familyName": "Rees",
+        "birthDate": "1992-10-29T08:32:00.000Z",
+        "jobTitle": "Information Technology Specialist",
+        "address": {
+            "contactType": "primary",
+            "streetAddress": "20 Route 4",
+            "addressLocality": "Salford, Greater Manchester",
+            "postalCode": "M41 8ZE",
+            "addressCountry": "UK",
+            "telephone": "(0516 73) 3611"
+        },
+        "description": "Peter Rees",
+        "email": "peter.rees@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Administrators"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}admin"
+            }
+        }
+    },
+    {
         "gender": "F",
         "givenName": "Cassandra",
         "familyName": "Stevenson",
@@ -14,7 +41,17 @@
             "telephone": "(0361 69) 6403"
         },
         "description": "Cassandra Stevenson",
-        "email": "cassandra.stevenson@example.com"
+        "email": "cassandra.stevenson@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "M",
@@ -31,7 +68,17 @@
             "telephone": "(0676 71) 5266"
         },
         "description": "Shawn Reid",
-        "email": "shawn.reid@example.com"
+        "email": "shawn.reid@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "F",
@@ -48,7 +95,17 @@
             "telephone": "(0389 81) 7431"
         },
         "description": "Chelsea Ross",
-        "email": "chelsea.ross@example.com"
+        "email": "chelsea.ross@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "M",
@@ -65,7 +122,17 @@
             "telephone": "(0386 76) 4169"
         },
         "description": "Jonathan Green",
-        "email": "jonathan.green@example.com"
+        "email": "jonathan.green@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "M",
@@ -82,7 +149,17 @@
             "telephone": "(0486 68) 4601"
         },
         "description": "Joshua Miller",
-        "email": "joshua.miller@example.com"
+        "email": "joshua.miller@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "F",
@@ -99,7 +176,17 @@
             "telephone": "(0558 70) 4017"
         },
         "description": "Kaylee Tomlinson",
-        "email": "kaylee.tomlinson@example.com"
+        "email": "kaylee.tomlinson@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "M",
@@ -116,7 +203,17 @@
             "telephone": "(0648 81) 2691"
         },
         "description": "Christopher Burrows",
-        "email": "christopher.burrows@example.com"
+        "email": "christopher.burrows@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "F",
@@ -133,7 +230,17 @@
             "telephone": "(0593 71) 8037"
         },
         "description": "Cheyenne Ward",
-        "email": "cheyenne.ward@example.com"
+        "email": "cheyenne.ward@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "M",
@@ -166,7 +273,17 @@
             "telephone": "(0517 83) 4937"
         },
         "description": "Brianna Dixon",
-        "email": "brianna.dixon@example.com"
+        "email": "brianna.dixon@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "M",
@@ -183,7 +300,17 @@
             "telephone": "(0285 82) 3457"
         },
         "description": "Maxwell Ward",
-        "email": "maxwell.ward@example.com"
+        "email": "maxwell.ward@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "M",
@@ -200,7 +327,17 @@
             "telephone": "(0516 73) 3611"
         },
         "description": "Alexander Johnson",
-        "email": "alexander.johnson@example.com"
+        "email": "alexander.johnson@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "F",
@@ -217,7 +354,17 @@
             "telephone": "(0181 77) 2532"
         },
         "description": "Sierra Watts",
-        "email": "sierra.watts@example.com"
+        "email": "sierra.watts@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "M",
@@ -251,7 +398,17 @@
             "telephone": "(0580 83) 8024"
         },
         "description": "Luke O'connor",
-        "email": "luke.oconnor@example.com"
+        "email": "luke.oconnor@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "M",
@@ -268,7 +425,17 @@
             "telephone": "(0410 68) 5274"
         },
         "description": "Connor Saunders",
-        "email": "connor.saunders@example.com"
+        "email": "connor.saunders@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     },
     {
         "gender": "F",
@@ -285,6 +452,16 @@
             "telephone": "(0294 70) 7163"
         },
         "description": "Kaitlyn Stanley",
-        "email": "kaitlyn.stanley@example.com"
+        "email": "kaitlyn.stanley@example.com",
+        "user": {
+            "groups": [
+                {
+                    "name":"Users"
+                }
+            ],
+            "userCredentials": {
+                "userPassword": "{clear}user"
+            }
+        }
     }
 ]

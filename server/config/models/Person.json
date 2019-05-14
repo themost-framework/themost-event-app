@@ -158,12 +158,12 @@
             "many": true
         }
     ],
-    "privileges": [
+    "eventListeners": [
         {
-            "mask": 1,
-            "type": "global",
-            "account":"*"
-        },
+          "type": "./listeners/generate-person-user-listener"
+        }
+    ],
+    "privileges": [
         {
             "mask": 15,
             "type": "global"

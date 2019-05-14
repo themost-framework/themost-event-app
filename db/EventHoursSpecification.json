@@ -1,28 +1,55 @@
 [{
-    "name":"GL1-1st hour",
-    "validFrom":"2018-09-01T00:00:00+03:00",
-    "validThrough":"2018-09-30T00:00:00+03:00",
-    "duration":"PT45M",
-    "splitDuration": "PT3M",
-    "minuteOfHour":"10",
-    "hourOfDay":"8",
-    "dayOfWeek": "2"
-},{
-    "name":"GL1-2nd hour",
-    "validFrom":"2018-09-01T00:00:00+03:00",
-    "validThrough":"2018-09-30T00:00:00+03:00",
-    "duration":"PT45M",
-    "splitDuration": "PT3M",
-    "minuteOfHour":"10",
-    "hourOfDay":"9",
-    "dayOfWeek": "2"
-},{
-    "name":"GL1-3rd hour",
-    "validFrom":"2018-09-01T00:00:00+03:00",
-    "validThrough":"2018-09-30T00:00:00+03:00",
-    "duration":"PT45M",
-    "splitDuration": "PT3M",
-    "minuteOfHour":"10",
-    "hourOfDay":"10",
-    "dayOfWeek": "2"
-}]
+        "name": "1st hour",
+        "validFrom": "2018-09-01T00:00:00+03:00",
+        "validThrough": "2018-09-30T00:00:00+03:00",
+        "duration": "PT45M",
+        "minuteOfHour": "15",
+        "hourOfDay": "8",
+        "dayOfWeek": "1"
+    },
+    {
+        "name": "2nd hour",
+        "validFrom": "2018-09-01T00:00:00+03:00",
+        "validThrough": "2018-09-30T00:00:00+03:00",
+        "duration": "PT45M",
+        "minuteOfHour": "15",
+        "hourOfDay": "9",
+        "dayOfWeek": "1"
+    },
+    {
+        "name": "3rd hour",
+        "validFrom": "2018-09-01T00:00:00+03:00",
+        "validThrough": "2018-09-30T00:00:00+03:00",
+        "duration": "PT45M",
+        "minuteOfHour": "15",
+        "hourOfDay": "11",
+        "dayOfWeek": "1"
+    },
+    {
+        "name": "4th hour",
+        "validFrom": "2018-09-01T00:00:00+03:00",
+        "validThrough": "2018-09-30T00:00:00+03:00",
+        "duration": "PT45M",
+        "minuteOfHour": "15",
+        "hourOfDay": "12",
+        "dayOfWeek": "1"
+    },
+    {
+        "name": "5th hour",
+        "validFrom": "2018-09-01T00:00:00+03:00",
+        "validThrough": "2018-09-30T00:00:00+03:00",
+        "duration": "PT45M",
+        "minuteOfHour": "15",
+        "hourOfDay": "13",
+        "dayOfWeek": "1"
+    },
+    {
+        "name": "6th hour",
+        "validFrom": "2018-09-01T00:00:00+03:00",
+        "validThrough": "2018-09-30T00:00:00+03:00",
+        "duration": "PT45M",
+        "minuteOfHour": "15",
+        "hourOfDay": "14",
+        "dayOfWeek": "1"
+    }
+]

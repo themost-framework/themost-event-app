@@ -1,8 +1,7 @@
 module.exports = function (api) {
     api.cache(false);
     return {
-        'sourceMaps': 'both',
-        'retainLines': true,
+        'sourceMaps': 'inline',
         'presets': [
             [
                 '@babel/preset-env',

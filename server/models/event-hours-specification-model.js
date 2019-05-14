@@ -18,7 +18,7 @@ let StructuredValue = require('./structured-value-model');
  * @augments {DataObject}
  */
 @EdmMapping.entityType('EventHoursSpecification')
-export default class EventHoursSpecification extends StructuredValue {
+class EventHoursSpecification extends StructuredValue {
     /**
      * @constructor
      */
@@ -35,3 +35,5 @@ export default class EventHoursSpecification extends StructuredValue {
     }
     
 }
+
+module.exports = EventHoursSpecification;

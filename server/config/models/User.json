@@ -117,6 +117,9 @@
     }
   ],
   "eventListeners": [
+    {
+      "type": "./listeners/set-user-default-credential-listener"
+    }
   ],
   "seed": [
     {

@@ -20,7 +20,7 @@ import {DataObject} from '@themost/data/data-object';
  * @augments {DataObject}
  */
 @EdmMapping.entityType('StructuredValue')
-export default class StructuredValue extends DataObject {
+class StructuredValue extends DataObject {
     /**
      * @constructor
      */
@@ -28,3 +28,5 @@ export default class StructuredValue extends DataObject {
         super();
     }
 }
+
+module.exports = StructuredValue;
