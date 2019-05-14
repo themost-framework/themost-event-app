@@ -12,6 +12,7 @@
     "build": "rimraf dist/server && babel server --out-dir dist/server --copy-files --source-maps",
     "themost": "themost",
     "serve": "nodemon bin/www.js",
+    "seed": "node db/seed.js",
     "debug": "nodemon --inspect-brk bin/www.js"
   },
   "devDependencies": {
