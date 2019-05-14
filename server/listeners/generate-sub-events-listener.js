@@ -19,7 +19,6 @@ export function afterSave(event, callback) {
         }
         //get target event hours specification
         let thisEventHoursSpecification = event.model.context.model('EventHoursSpecification').convert(event.target.eventHoursSpecification);
-        console.log('DEBUG','SuperEvent','EventHoursSpecification', thisEventHoursSpecification);
         //fetch original data object
         return event.model.context.model('EventHoursSpecification').where('id').equal(thisEventHoursSpecification.getId())
             .silent().getTypedItem().then((eventHoursSpecification)=> {

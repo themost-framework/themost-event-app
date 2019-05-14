@@ -191,13 +191,6 @@
             "type": "Text"
         },
         {
-            "@id": "http://schema.org/isRelatedTo",
-            "name": "isRelatedTo",
-            "title": "isRelatedTo",
-            "description": "A pointer to another, somehow related product (or multiple products).",
-            "type": "Service"
-        },
-        {
             "@id": "http://schema.org/productID",
             "name": "productID",
             "title": "productID",

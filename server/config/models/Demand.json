@@ -107,13 +107,6 @@
             "type": "WarrantyPromise"
         },
         {
-            "@id": "http://schema.org/includesObject",
-            "name": "includesObject",
-            "title": "includesObject",
-            "description": "This links to a node or nodes indicating the exact quantity of the products included in the offer.",
-            "type": "TypeAndQuantityNode"
-        },
-        {
             "@id": "http://schema.org/eligibleQuantity",
             "name": "eligibleQuantity",
             "title": "eligibleQuantity",
@@ -187,7 +180,7 @@
             "@id": "http://schema.org/businessFunction",
             "name": "businessFunction",
             "title": "businessFunction",
-            "description": "The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle (TypeAndQuantityNode). The default is http://purl.org/goodrelations/v1#Sell.",
+            "description": "The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle. The default is http://purl.org/goodrelations/v1#Sell.",
             "type": "BusinessFunction"
         },
         {
@@ -217,13 +210,6 @@
             "title": "eligibleDuration",
             "description": "The duration for which the given offer is valid.",
             "type": "QuantitativeValue"
-        },
-        {
-            "@id": "http://schema.org/acceptedPaymentMethod",
-            "name": "acceptedPaymentMethod",
-            "title": "acceptedPaymentMethod",
-            "description": "The payment method(s) accepted by seller for this offer.",
-            "type": "LoanOrCredit"
         },
         {
             "@id": "http://schema.org/eligibleRegion",

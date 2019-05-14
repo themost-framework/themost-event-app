@@ -1,10 +1,10 @@
 [
     {
-        "startDate": "2018-09-03T10:15:00.000Z",
-        "endDate": "2018-09-03T12:00:00.000Z",
-        "duration": "PT105M",
+        "eventHoursSpecification": {
+            "identifier": "00000000-0000-0000-0000-000000000001"
+        },
         "performer": {
-            "email": "luke.oconnor@example.com"
+            "email": "cassandra.stevenson@example.com"
         },
         "maximumAttendeeCapacity": 5
     },
@@ -13,7 +13,7 @@
         "endDate": "2018-09-10T12:00:00.000Z",
         "duration": "PT105M",
         "performer": {
-            "email": "luke.oconnor@example.com"
+            "email": "cassandra.stevenson@example.com"
         },
         "maximumAttendeeCapacity": 5
     }

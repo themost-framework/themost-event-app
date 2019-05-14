@@ -1,4 +1,5 @@
 {
+    "$schema": "https://themost-framework.github.io/themost/models/2018/2/schema.json",
     "@id": "http://schema.org/EventHoursSpecification",
     "name": "EventHoursSpecification",
     "description": "A structured value providing information about the opening hours of a place or a certain service inside a place.</p>\n\n<p>The place is <strong>open</strong> if the <a class=\"localLink\" href=\"http://schema.org/opens\">opens</a> property is specified, and <strong>closed</strong> otherwise.</p>\n\n<p>If the value for the <a class=\"localLink\" href=\"http://schema.org/closes\">closes</a> property is less than the value for the <a class=\"localLink\" href=\"http://schema.org/opens\">opens</a> property then the hour range is assumed to span over the next day.",
@@ -81,6 +82,22 @@
             "description": "The day of the week for which these opening hours are valid.",
             "type": "Text",
             "value":"javascript:return '*';"
+        },
+        {
+            "@id": "http://schema.org/identifier",
+            "name": "identifier",
+            "title": "identifier",
+            "description": "The identifier property represents any kind of identifier for any kind of <a class=\"localLink\" href=\"http://schema.org/Thing\">Thing</a>, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See <a href=\"/docs/datamodel.html#identifierBg\">background notes</a> for more details.",
+            "type": "Text",
+            "value": "javascript:return this.newGuid();"
+        }
+    ],
+    "constraints": [
+        {
+            "type": "unique",
+            "fields": [
+                "identifier"
+            ]
         }
     ],
     "privileges": [

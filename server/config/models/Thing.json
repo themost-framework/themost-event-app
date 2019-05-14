@@ -5,6 +5,7 @@
     "title": "Thing",
     "abstract": false,
     "sealed": false,
+    "hidden": true,
     "version": "1.0",
     "fields": [
         {

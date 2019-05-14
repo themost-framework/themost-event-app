@@ -1,13 +1,12 @@
 
 import HttpBaseController from '@themost/web/controllers/base';
 import {httpController,httpGet,httpAction} from '@themost/web/decorators';
-import path from 'path';
 
 @httpController()
-export default class RootController extends HttpBaseController {
+class RootController extends HttpBaseController {
     
-    constructor(context) {
-        super(context);
+    constructor() {
+        super();
     }
     
     @httpGet()
@@ -15,6 +14,6 @@ export default class RootController extends HttpBaseController {
     getIndex() {
         return this.view();
     }
-    
-    
 }
+
+module.exports = RootController;

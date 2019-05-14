@@ -5,7 +5,8 @@
         "duration": "PT45M",
         "minuteOfHour": "15",
         "hourOfDay": "8",
-        "dayOfWeek": "1"
+        "dayOfWeek": "1",
+        "identifier": "00000000-0000-0000-0000-000000000001"
     },
     {
         "name": "2nd hour",
@@ -14,7 +15,8 @@
         "duration": "PT45M",
         "minuteOfHour": "15",
         "hourOfDay": "9",
-        "dayOfWeek": "1"
+        "dayOfWeek": "1",
+        "identifier": "00000000-0000-0000-0000-000000000002"
     },
     {
         "name": "3rd hour",
@@ -23,7 +25,8 @@
         "duration": "PT45M",
         "minuteOfHour": "15",
         "hourOfDay": "11",
-        "dayOfWeek": "1"
+        "dayOfWeek": "1",
+        "identifier": "00000000-0000-0000-0000-000000000003"
     },
     {
         "name": "4th hour",
@@ -32,7 +35,8 @@
         "duration": "PT45M",
         "minuteOfHour": "15",
         "hourOfDay": "12",
-        "dayOfWeek": "1"
+        "dayOfWeek": "1",
+        "identifier": "00000000-0000-0000-0000-000000000004"
     },
     {
         "name": "5th hour",
@@ -41,7 +45,8 @@
         "duration": "PT45M",
         "minuteOfHour": "15",
         "hourOfDay": "13",
-        "dayOfWeek": "1"
+        "dayOfWeek": "1",
+        "identifier": "00000000-0000-0000-0000-000000000005"
     },
     {
         "name": "6th hour",
@@ -50,6 +55,7 @@
         "duration": "PT45M",
         "minuteOfHour": "15",
         "hourOfDay": "14",
-        "dayOfWeek": "1"
+        "dayOfWeek": "1",
+        "identifier": "00000000-0000-0000-0000-000000000006"
     }
 ]

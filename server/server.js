@@ -13,7 +13,7 @@ ODataModelBuilderConfiguration.config(app).then((builder)=> {
     // set service root
     builder.serviceRoot = '/api/';
     // set context link
-    builder.hasContextLink((context)=> {
+    builder.hasContextLink(()=> {
         return '/api/$metadata';
     });
 }).catch((err)=> {
