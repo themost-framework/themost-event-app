@@ -99,7 +99,8 @@
             "title": "eventStatus",
             "description": "An eventStatus of an event represents its status; particularly useful when an event is cancelled or rescheduled.",
             "type": "EventStatusType",
-            "expandable": true
+            "expandable": true,
+            "value":"javascript:return { alternateName:'EventOpened' };"
         },
         {
             "@id": "http://schema.org/superEvent",

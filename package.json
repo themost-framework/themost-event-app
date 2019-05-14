@@ -13,7 +13,8 @@
     "themost": "themost",
     "serve": "nodemon bin/www.js",
     "seed": "node db/seed.js",
-    "debug": "nodemon --inspect-brk bin/www.js"
+    "debug": "nodemon --inspect-brk bin/www.js",
+    "test": "mocha --require @babel/register --exit --recursive ./server/test/*.spec.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
@@ -26,9 +27,15 @@
     "@babel/preset-env": "^7.1.6",
     "@babel/register": "^7.0.0",
     "@themost/cli": "^2.4.3",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/supertest": "^2.0.7",
     "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
     "nodemon": "^1.19.0",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
     "@themost/client": "^2.1.3",

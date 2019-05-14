@@ -1,0 +1,57 @@
+<% layout('../shared/master') %>
+    <div class="container-fluid">
+            <div class="pt-5">
+                
+            </div>
+            <h2 class="pt-4 pb-2">
+                <%=model.name%>
+            </h2>
+            <div>
+                
+                <table class="table">
+                    <thead>
+                        <th>Name</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Type</th>
+                        <th>Expandable</th>
+                    </thead>
+                    <tbody>
+                        <% for (var i=0;i<model.attributes.length;i++) {
+                    var x = model.attributes[i];
+                %>
+                            <tr>
+                                <td>
+                                    <% if (x.primary) { %>
+                                        <b><%=x.property || x.name%></b>
+                                    <% } else { %>
+                                        <%=x.property || x.name%>
+                                    <% } %>
+                                </td>
+                                <td>
+                                    <%=x.title%>
+                                </td>
+                                <td>
+                                    <%-x.description|| ''%>
+                                </td>
+                                <% if  (html.context.model(x.type)) { %>
+                                    <td>
+                                        <a href="/entityTypes/<%=x.type%>/">
+                                            <%=x.type%>
+                                        </a>
+                                    </td>
+                                    <% } else { %>
+                                        <td>
+                                            <%=x.type%>
+                                        </td>
+                                        <% } %>
+                                            
+                                            <td class="text-center">
+                                                <%=x.expandable || ''%>
+                                            </td>
+                            </tr>
+                            <%}%>
+                    </tbody>
+                </table>
+            </div>
+    </div>

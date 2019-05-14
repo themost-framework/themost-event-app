@@ -1,0 +1,23 @@
+<% layout('../shared/master') %>
+<div class="container-fluid">
+    <h2 class="pt-2 pb-2">Entities</h4>
+    <div class="row">
+        
+                <% model.entityType.sort(function(a, b) {
+                    if ( a.name < b.name )
+                        return -1;
+                    if ( a.name > b.name )
+                        return 1;
+                    return 0;
+                }).forEach(function(x) {
+                %>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <a href="/entityTypes/<%=x.name%>/"><%=x.name%></a>
+                        </div>
+                <%
+                }) %>
+    </div>
+    </div>
+</div>
+
+
