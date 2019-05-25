@@ -14,7 +14,8 @@
     "serve": "nodemon bin/www.js",
     "seed": "node db/seed.js",
     "debug": "nodemon --inspect-brk bin/www.js",
-    "test": "mocha --require @babel/register --exit --recursive ./server/test/*.spec.js"
+    "test": "mocha --require @babel/register --exit --recursive ./server/test/*.spec.js",
+    "mocha": "mocha --require @babel/register --exit --timeout 30000"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
